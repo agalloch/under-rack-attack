@@ -1,6 +1,11 @@
+require 'pry'
+
 class EndpointController < ApplicationController
-  use Rack::Attack # FIXME: no using it yet actually
+  use Rack::Attack
+  use Attacked::Middleware
 
   def index
+    puts 'shit'
+    # binding.pry
   end
 end

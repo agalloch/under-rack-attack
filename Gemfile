@@ -23,7 +23,7 @@ end
 gem 'jquery-rails'
 
 # Activate rack-attack
-gem 'rack-attack'
+gem 'rack-attack', '4.2.0'
 
 # Peeping tom
 gem 'pry'

@@ -61,7 +61,7 @@ GEM
     pry-nav (0.2.4)
       pry (>= 0.9.10, < 0.11.0)
     rack (1.4.5)
-    rack-attack (4.1.1)
+    rack-attack (4.2.0)
       rack
     rack-cache (1.2)
       rack (>= 0.4)
@@ -117,7 +117,7 @@ DEPENDENCIES
   jquery-rails
   pry
   pry-nav
-  rack-attack
+  rack-attack (= 4.2.0)
   rails (= 3.2.19)
   sass-rails (~> 3.2.3)
   sqlite3
